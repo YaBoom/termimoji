@@ -4,7 +4,7 @@ version = "1.0.0"
 description = "Lightning-fast terminal emoji search & copy tool"
 readme = "README.md"
 requires-python = ">=3.10"
-license = {text = "MIT"}
+license = "MIT"
 authors = [
     {name = "YaBoom", email = "yaboom@example.com"}
 ]
@@ -13,13 +13,11 @@ classifiers = [
     "Development Status :: 4 - Beta",
     "Environment :: Console",
     "Intended Audience :: Developers",
-    "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
 ]
-dependencies = []
 
 [project.optional-dependencies]
 dev = ["pytest", "black", "mypy"]

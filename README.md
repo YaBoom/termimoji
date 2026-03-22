@@ -20,11 +20,16 @@
 ## 📦 Installation
 
 ```bash
-# Via pip
+# Via pip (from PyPI, if published)
 pip install termimoji
 
-# Via uv (faster)
+# Via uv (faster, from PyPI, if published)
 uv add termimoji
+
+# For local development
+pip install .
+# or
+uv pip install .
 ```
 
 ## 🎮 Usage
